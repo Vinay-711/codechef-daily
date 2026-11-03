@@ -1,0 +1,4 @@
+import java.util.*;
+public class Main {static class Fast {byte[] b=new byte[65536];int p,l;int read()throws Exception{if(p==l){l=System.in.read(b);p=0;if(l<0)return -1;}return b[p++];}int next()throws Exception{int c;do{c=read();}while(c<=32&&c!=-1);int x=0;while(c>32){x=x*10+c-48;c=read();}return x;}}
+ public static void main(String[] args)throws Exception{Fast in=new Fast();int t=in.next();StringBuilder out=new StringBuilder();while(t-->0){int n=in.next(),mask=0,best=1;HashMap<Integer,Integer> first=new HashMap<>();first.put(0,0);for(int i=1;i<=n;i++){mask^=1<<(in.next()-1);for(int bit=0;bit<30;bit++){Integer j=first.get(mask^(1<<bit));if(j!=null)best=Math.max(best,i-j);}first.putIfAbsent(mask,i);}out.append((best-1)/2).append('\n');}System.out.print(out);}
+}

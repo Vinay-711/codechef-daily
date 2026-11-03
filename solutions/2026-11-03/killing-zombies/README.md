@@ -2,7 +2,7 @@
 
 Problem: [killing-zombies](https://www.codechef.com/problems/CLKLZM)
 
-Difficulty: **2501 (official CodeChef rating)**.
+Difficulty: **2505 (official CodeChef rating)**.
 
 Status: **Accepted** — official judge verified.
 

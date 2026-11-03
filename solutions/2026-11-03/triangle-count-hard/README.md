@@ -2,7 +2,7 @@
 
 Problem: [triangle-count-hard](https://www.codechef.com/problems/TRICOUNT2)
 
-Difficulty: **2501 (official CodeChef rating)**.
+Difficulty: **2502 (official CodeChef rating)**.
 
 Status: **Accepted** — official judge verified.
 

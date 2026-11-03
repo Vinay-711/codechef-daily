@@ -2,7 +2,7 @@
 
 Problem: [robots-in-chefland](https://www.codechef.com/problems/ROBOTS)
 
-Difficulty: **2501 (official CodeChef rating)**.
+Difficulty: **2505 (official CodeChef rating)**.
 
 Status: **Accepted** — official judge verified.
 

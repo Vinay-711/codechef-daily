@@ -2,7 +2,7 @@
 
 Problem: [xor-times-two-is-sum](https://www.codechef.com/problems/XORXORSUM)
 
-Difficulty: **2501 (official CodeChef rating)**.
+Difficulty: **2502 (official CodeChef rating)**.
 
 Status: **Accepted** — official judge verified.
 

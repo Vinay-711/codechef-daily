@@ -6,7 +6,7 @@ Date: 2026-11-22 (Asia/Kolkata). Status: **Accepted**. Platform: **CodeChef**. L
 
 ## Approach
 
-Each test case is processed in O(N) time by counting elements smaller than the K‑th song; only O(1) additional space is used. This meets the constraints easily.
+Linear scan per test case gives O(N) time and O(1) auxiliary space.
 
 ## Verification
 
